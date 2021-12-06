@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "[go]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false
+      },
+      "files.autoSave": "afterDelay",
+      "files.autoSaveDelay": 1000,
+      "go.formatTool": "goreturns",
+      "go.formatFlags": [
+        "-w"
+      ],
+      "go.lintTool": "golint",
+      "go.lintOnSave": "package",
+      "go.vetOnSave": "package",
+      "go.buildOnSave": "package",
+      "go.testOnSave": false,
+      "go.gocodeAutoBuild": true,
+      "go.installDependenciesWhenBuilding": true
+}

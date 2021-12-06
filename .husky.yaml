@@ -1,0 +1,13 @@
+hooks:
+  # hook scripts
+  pre-commit:
+    - husky lint-staged
+    # - go test -v  ./src/azure/
+
+  
+# list staged files do some pre-process and git add
+lint-staged:
+  "*.go":
+    - gofmt -l -w
+    
+
